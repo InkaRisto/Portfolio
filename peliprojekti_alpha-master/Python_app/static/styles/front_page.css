@@ -1,0 +1,83 @@
+body {
+    background: #131313;
+    padding-top: 5em;
+    justify-content: center;
+    font-size: x-large;
+    text-align: center;
+    color: #a6cf2a;
+    font-family: 'Silkscreen', 'Bebas Neue', Arial, sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    font-size: large;
+    padding: 4rem 5rem;
+    text-align: center;
+    color: #a5cd2b;
+    border: 1px solid #a5cd2b;
+    margin: 1rem;
+}
+
+article:hover {
+    background-color: #a6cf2a;
+    color: #000001;
+}
+
+a:link, a:visited, a:hover {
+    background-color: transparent;
+    color: transparent;
+    text-decoration: none;
+}
+
+.typing {
+    height: 10rem;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-size: inherit;
+}
+
+.typing-text {
+  width: 14.5ch;
+  animation: typing 2s steps(15), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Silkscreen', cursive;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+form {
+    width: 1000px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    justify-content: center;
+
+}
+
+.username-input {
+    padding: 10px;
+    margin: 10px 0;
+    font-family: Silkscreen, "Bebas Neue", sans-serif;
+    background-color: transparent;
+    color: #a4cb2c;
+    border: #a6cf2a solid 1px;
+}
